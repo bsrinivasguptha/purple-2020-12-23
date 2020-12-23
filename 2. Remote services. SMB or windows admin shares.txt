@@ -1,0 +1,10 @@
+nmap -p 445 <target>
+
+nmap --script smb-vuln* -p 139,445 <target>
+
+smbclient -U user -L <target>
+
+python psexec.py domain/usernmae@target hostname
+
+
+

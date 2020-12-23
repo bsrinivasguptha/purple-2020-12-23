@@ -1,0 +1,3 @@
+"Inject DLL into remote process.exe" windows_x64_exec_notepad.dll <PID>
+
+injectAllTheThings.exe -t 1 explorer.exe windows_x64_exec_notepad.dll
